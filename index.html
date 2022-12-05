@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adesk test</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script defer src="./js/index.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container">
+      <a href="#" class="header__logo">
+        <img src="./img/logo.svg" alt="Логотип Adesk">
+      </a>
+
+      <div class="header__menu">
+        <nav class="header__nav nav">
+          <ul class="nav__list list-reset">
+            <li class="nav__item">
+              <a href="https://promo.adesk.ru/vnedrenie-adesk-pod-klyuch/?utm_source=adesk_website&utm_medium=header" class="nav__link">Внедрить под ключ</a>
+            </li>
+            <li class="nav__item">
+              <a href="https://adesk.ru/reviews/" class="nav__link">Отзывы</a>
+            </li>
+            <li class="nav__item">
+              <a href="https://adesk.ru/pricing/" class="nav__link">Цены</a>
+            </li>
+            <li class="nav__item">
+              <a href="https://adesk.ru/blog/" class="nav__link">Блог</a>
+            </li>
+            <li class="nav__item">
+              <a href="https://help.adesk.ru/" class="nav__link">Помощь</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__account account">
+          <a href="#" class="account__login btn btn-border">
+            Войти
+          </a>
+          <a href="#" class="account__register btn btn-accent">
+            Зарегистрироваться
+          </a>
+        </div>
+      </div>
+
+      <button class="burger btn-reset" aria-label="Открыть меню">
+        <span class="burger__line"></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="hero">
+      <div class="hero__container container">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            Платите только за&nbsp;то, что нужно вам
+          </h1>
+          <p class="hero__text">
+            Тарифы для задач любого масштаба&nbsp;&mdash; стоимостью как карманные расходы у&nbsp;детей. Первые 14&nbsp;дней&nbsp;&mdash; <span>бесплатно</span> и&nbsp;без каких-либо ограничений.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="tariff">
+      <div class="tariff__container container">
+        <ul class="tariff__list list-reset">
+          <li class="tariff__item">
+            <div class="tariff__card card card--first">
+              <div class="card__header">
+                <p class="card__title">
+                  Тариф &laquo;Первый&raquo;
+                </p>
+                <p class="card__description">
+                  Полный пакет опций для максимального результата
+                </p>
+              </div>
+              <div class="card__body">
+                <div class="card__price">
+                  <p class="card__price-value">2&nbsp;499&nbsp;₽</p>
+                  <p class="card__price-period">
+                    в&nbsp;месяц при оплате за&nbsp;год
+                  </p>
+                </div>
+                <div class="card__users card-users">
+                  <ul class="card-users__list list-reset">
+                    <li class="card-users__item card-users__item--user">
+                      <span>
+                        10+&nbsp;пользователей
+                      </span>
+                    </li>
+                    <li class="card-users__item card-users__item--entity">
+                      <span>
+                        5+&nbsp;юридических лиц
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card__options card-options">
+                  <ul class="card-options__list list-reset">
+                    <li class="card-options__item card-options__item--on">
+                      Неограниченные счета
+                    </li>
+                    <li class="card-options__item card-options__item--on">
+                      Учет по проектам
+                    </li>
+                    <li class="card-options__item card-options__item--on">
+                      Отчет о движении денег
+                    </li>
+                    <li class="card-options__item card-options__item--on">
+                      Отчет о прибылях и убытках
+                    </li>
+                    <li class="card-options__item card-options__item--on">
+                      Настройка прав доступа
+                    </li>
+                    <li class="card-options__item card-options__item--on">
+                      Бюджеты и план-факт анализ
+                    </li>
+                    <li class="card-options__item card-options__item--on">
+                      Согласование платежей
+                    </li>
+                    <li class="card-options__item card-options__item--on">
+                      Кредиты
+                    </li>
+                    <li class="card-options__item card-options__item--on">
+                      Основные средства
+                    </li>
+                    <li class="card-options__item card-options__item--on">
+                      Расширенная аналитика
+                    </li>
+                    <li class="card-options__item card-options__item--on">
+                      Прикрепление файлов
+                    </li>
+                    <li class="card-options__item card-options__item--on">
+                      Приоритетная поддержка
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__footer">
+                <button class="btn btn-reset card__btn card__btn--first">
+                  Протестировать
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="tariff__item">
+            <div class="tariff__card card card--business">
+              <div class="card__header">
+                <p class="card__title">
+                  Тариф &laquo;Бизнес&raquo;
+                </p>
+                <p class="card__description">
+                  Инструмент для улучшения экономики бизнеса
+                </p>
+              </div>
+              <div class="card__body">
+                <div class="card__price">
+                  <p class="card__price-value">2&nbsp;082&nbsp;₽</p>
+                  <p class="card__price-period">
+                    в&nbsp;месяц при оплате за&nbsp;год
+                  </p>
+                </div>
+                <div class="card__users card-users">
+                  <ul class="card-users__list list-reset">
+                    <li class="card-users__item card-users__item--user">
+                      <span>
+                        3+&nbsp;пользователя
+                      </span>
+                    </li>
+                    <li class="card-users__item card-users__item--entity">
+                      <span>
+                        3+&nbsp;юридических лица
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card__options card-options">
+                  <ul class="card-options__list list-reset">
+                    <li class="card-options__item card-options__item--on">
+                      Неограниченные счета
+                    </li>
+                    <li class="card-options__item card-options__item--on">
+                      Учет по проектам
+                    </li>
+                    <li class="card-options__item card-options__item--on">
+                      Отчет о движении денег
+                    </li>
+                    <li class="card-options__item card-options__item--on">
+                      Отчет о прибылях и убытках
+                    </li>
+                    <li class="card-options__item card-options__item--on">
+                      Настройка прав доступа
+                    </li>
+                    <li class="card-options__item card-options__item--on">
+                      Бюджеты и план-факт анализ
+                    </li>
+                    <li class="card-options__item card-options__item--on">
+                      Согласование платежей
+                    </li>
+                    <li class="card-options__item card-options__item--off">
+                      Кредиты
+                    </li>
+                    <li class="card-options__item card-options__item--off">
+                      Основные средства
+                    </li>
+                    <li class="card-options__item card-options__item--off">
+                      Расширенная аналитика
+                    </li>
+                    <li class="card-options__item card-options__item--off">
+                      Прикрепление файлов
+                    </li>
+                    <li class="card-options__item card-options__item--off">
+                      Приоритетная поддержка
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__footer">
+                <button class="btn btn-reset card__btn card__btn--business">
+                  Протестировать
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="tariff__item">
+            <div class="tariff__card card card--comfort">
+              <div class="card__header">
+                <p class="card__title">
+                  Тариф &laquo;Комфорт&raquo;
+                </p>
+                <p class="card__description">
+                  Подходит для стартапов и&nbsp;микробизнеса
+                </p>
+              </div>
+              <div class="card__body">
+                <div class="card__price">
+                  <p class="card__price-value">1&nbsp;749&nbsp;₽</p>
+                  <p class="card__price-period">
+                    в&nbsp;месяц при оплате за&nbsp;год
+                  </p>
+                </div>
+                <div class="card__users card-users">
+                  <ul class="card-users__list list-reset">
+                    <li class="card-users__item card-users__item--user">
+                      <span>
+                        3&nbsp;пользователя
+                      </span>
+                    </li>
+                    <li class="card-users__item card-users__item--entity">
+                      <span>
+                        2&nbsp;юридических лица
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card__options card-options">
+                  <ul class="card-options__list list-reset">
+                    <li class="card-options__item card-options__item--on">
+                      Неограниченные счета
+                    </li>
+                    <li class="card-options__item card-options__item--on">
+                      Учет по проектам
+                    </li>
+                    <li class="card-options__item card-options__item--on">
+                      Отчет о движении денег
+                    </li>
+                    <li class="card-options__item card-options__item--on">
+                      Отчет о прибылях и убытках
+                    </li>
+                    <li class="card-options__item card-options__item--off">
+                      Настройка прав доступа
+                    </li>
+                    <li class="card-options__item card-options__item--off">
+                      Бюджеты и план-факт анализ
+                    </li>
+                    <li class="card-options__item card-options__item--off">
+                      Согласование платежей
+                    </li>
+                    <li class="card-options__item card-options__item--off">
+                      Кредиты
+                    </li>
+                    <li class="card-options__item card-options__item--off">
+                      Основные средства
+                    </li>
+                    <li class="card-options__item card-options__item--off">
+                      Расширенная аналитика
+                    </li>
+                    <li class="card-options__item card-options__item--off">
+                      Прикрепление файлов
+                    </li>
+                    <li class="card-options__item card-options__item--off">
+                      Приоритетная поддержка
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__footer">
+                <button class="btn btn-reset card__btn card__btn--comfort">
+                  Протестировать
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="tariff__item">
+            <div class="tariff__card card card--econom">
+              <div class="card__header">
+                <p class="card__title">
+                  Тариф &laquo;Эконом&raquo;
+                </p>
+                <p class="card__description">
+                  Подходит для фрилансеров и&nbsp;самозанятых
+                </p>
+              </div>
+              <div class="card__body">
+                <div class="card__price">
+                  <p class="card__price-value">833&nbsp;₽</p>
+                  <p class="card__price-period">
+                    в&nbsp;месяц при оплате за&nbsp;год
+                  </p>
+                </div>
+                <div class="card__users card-users">
+                  <ul class="card-users__list list-reset">
+                    <li class="card-users__item card-users__item--user">
+                      <span>
+                        1&nbsp;пользователь
+                      </span>
+                    </li>
+                    <li class="card-users__item card-users__item--entity">
+                      <span>
+                        1&nbsp;юридическое лицо
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card__options card-options">
+                  <ul class="card-options__list list-reset">
+                    <li class="card-options__item card-options__item--on">
+                      Неограниченные счета
+                    </li>
+                    <li class="card-options__item card-options__item--on">
+                      Учет по проектам
+                    </li>
+                    <li class="card-options__item card-options__item--on">
+                      Отчет о движении денег
+                    </li>
+                    <li class="card-options__item card-options__item--off">
+                      Отчет о прибылях и убытках
+                    </li>
+                    <li class="card-options__item card-options__item--off">
+                      Настройка прав доступа
+                    </li>
+                    <li class="card-options__item card-options__item--off">
+                      Бюджеты и план-факт анализ
+                    </li>
+                    <li class="card-options__item card-options__item--off">
+                      Согласование платежей
+                    </li>
+                    <li class="card-options__item card-options__item--off">
+                      Кредиты
+                    </li>
+                    <li class="card-options__item card-options__item--off">
+                      Основные средства
+                    </li>
+                    <li class="card-options__item card-options__item--off">
+                      Расширенная аналитика
+                    </li>
+                    <li class="card-options__item card-options__item--off">
+                      Прикрепление файлов
+                    </li>
+                    <li class="card-options__item card-options__item--off">
+                      Приоритетная поддержка
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__footer">
+                <button class="btn btn-reset card__btn card__btn--econom">
+                  Протестировать
+                </button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="freedemo">
+      <div class="freedemo__container container">
+        <div class="freedemo__content">
+          <div class="freedemo__image">
+            <img src="./img/pic.png" alt="Задумчивый мужчина">
+          </div>
+          <div class="freedemo__body">
+            <h2 class="freedemo__title">
+              Не&nbsp;можете определиться с&nbsp;тарифом?
+            </h2>
+            <p class="freedemo__description">
+              Давайте мы&nbsp;проведем бесплатную демонстрацию Adesk, на&nbsp;которой расскажем, как устроен сервис, покажем весь функционал и поможем выбрать тариф, который наиболее подходит для вашего бизнеса.
+            </p>
+            <button class="freedemo__btn btn btn-reset btn-border">
+              Записаться на демо
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="consulting">
+      <div class="consulting__container container">
+        <div class="consulting__content">
+          <h2 class="consulting__title section__title">
+            Внедрим управленческий учет в&nbsp;вашей компании
+          </h2>
+          <ol class="consulting__list">
+            <li class="consulting__item">
+              Вы&nbsp;получите полностью работоспособную систему управленческого учета
+            </li>
+            <li class="consulting__item">
+              Вам не&nbsp;придется тратить время на&nbsp;самостоятельное изучение тонкостей
+            </li>
+            <li class="consulting__item">
+              Мы&nbsp;будем сопровождать вас в&nbsp;течение первых месяцев работы
+            </li>
+          </ol>
+          <button class="consulting__btn btn btn-reset">
+            Получить консультацию
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq">
+      <div class="faq__container container">
+        <h2 class="section__title faq__title">
+          Вопросы и ответы
+        </h2>
+        <div class="faq__body">
+          <ul class="faq__list list-reset">
+            <li class="faq__item active">
+              <button class="faq__btn btn btn-accent btn-reset faq__btn-1 active" data-path="faq-1">
+                Зачем нужен Adesk, если есть Excel?
+              </button>
+              <div class="faq__content answers active" data-target="faq-1">
+                <ul class="answers__list list-reset">
+                  <li class="answers__item">
+                    Эксель&nbsp;&mdash; замечательный инструмент, но&nbsp;отнимает очень много времени и увеличивает шанс допустить ошибку
+                  </li>
+                  <li class="answers__item">
+                    Особенно когда в&nbsp;нём работают несколько пользователей
+                  </li>
+                  <li class="answers__item">
+                    Но&nbsp;самая главная проблема Экселя&nbsp;&mdash; это&nbsp;то, что в&nbsp;нем нет возможностей для автоматизации. Многие рутинные операции приходится делать вручную, что является очень дорогим удовольствием для предпринимателей.
+                  </li>
+                </ul>
+                <div class="answers__image">
+                  <img src="./img/photo.png" alt="Аватарка менеджера Adesk">
+                </div>
+              </div>
+            </li>
+            <li class="faq__item">
+              <button class="faq__btn btn btn-accent btn-reset" data-path="faq-2">
+                А&nbsp;если у&nbsp;нас есть бухгалтер?
+              </button>
+              <div class="faq__content answers" data-target="faq-2">
+                <ul class="answers__list list-reset">
+                  <li class="answers__item">
+                    О, бухгалтерский и&nbsp;управленческий учёт&nbsp;&mdash; совершенно разные вещи!
+                  </li>
+                  <li class="answers__item">
+                    Основная задача бухгалтера&nbsp;&mdash; правильно и&nbsp;вовремя отчитываться перед государством
+                  </li>
+                  <li class="answers__item">
+                    Управленческий учёт нужен в&nbsp;первую очередь для предпринимателя или собственника бизнеса для того, чтобы в&nbsp;реальном времени иметь ответ на&nbsp;вопрос &laquo;Как идут дела у&nbsp;компании?&raquo; и&nbsp;принимать правильные управленческие решения.
+                  </li>
+                  <li class="answers__item">
+                    Или у&nbsp;вас в&nbsp;бизнесе управленческие решения принимает бухгалтер? 🙂
+                  </li>
+                </ul>
+                <div class="faq__answers">
+                  <img src="./img/photo.png" alt="Аватарка менеджера Adesk">
+                </div>
+              </div>
+            </li>
+            <li class="faq__item">
+              <button class="faq__btn btn btn-accent btn-reset" data-path="faq-3">
+                А&nbsp;нашей компании подойдёт Adesk?
+              </button>
+              <div class="faq__content answers" data-target="faq-3">
+                <ul class="answers__list list-reset">
+                  <li class="answers__item">
+                    Наши клиенты&nbsp;&mdash; это малый бизнес из&nbsp;самых разных отраслей экономики с&nbsp;доходом от&nbsp;500 тысяч до&nbsp;15-20 млн рублей в&nbsp;месяц. Как правило, у&nbsp;них несколько счетов и&nbsp;ООО/ИП. Примерно половина клиентов&nbsp;&mdash; проектные компании, которые работают над заказами своих клиентов.
+                  </li>
+                </ul>
+                <div class="answers__image">
+                  <img src="./img/photo.png" alt="Аватарка менеджера Adesk">
+                </div>
+              </div>
+            </li>
+            <li class="faq__item">
+              <button class="faq__btn btn btn-accent btn-reset" data-path="faq-4">
+                Можно&nbsp;ли использовать Adesk с телефона?
+              </button>
+              <div class="faq__content answers" data-target="faq-4">
+                <ul class="answers__list list-reset">
+                  <li class="answers__item">
+                    Да, у&nbsp;нас есть мобильное приложение для iOS и&nbsp;для Android. К&nbsp;тому&nbsp;же у&nbsp;нас очень удобная мобильная версия, а&nbsp;так&nbsp;же бот для Telegram, которому вы&nbsp;просто можете писать о&nbsp;своих расходах и&nbsp;он&nbsp;будет автоматически добавлять их&nbsp;в&nbsp;систему. Кроме этого, он&nbsp;будет напоминать вам о&nbsp;предстоящих платежах и&nbsp;давать сводку по&nbsp;состоянию дел.
+                  </li>
+                </ul>
+                <div class="answers__image">
+                  <img src="./img/photo.png" alt="Аватарка менеджера Adesk">
+                </div>
+              </div>
+            </li>
+            <li class="faq__item">
+              <button class="faq__btn btn btn-accent btn-reset" data-path="faq-5">
+                Могу&nbsp;ли я&nbsp;приглашать других пользователей в&nbsp;систему?
+              </button>
+              <div class="faq__content answers" data-target="faq-5">
+                <ul class="answers__list list-reset">
+                  <li class="answers__item">
+                    Конечно! Более того, разным сотрудникам вы&nbsp;можете раздать разные права доступа. Например, кто-то из&nbsp;сотрудников может иметь доступ на&nbsp;внесение данных только по&nbsp;определенному счету и&nbsp;при этом не&nbsp;иметь доступа ни&nbsp;к&nbsp;каким отчетам.
+                  </li>
+                </ul>
+                <div class="answers__image">
+                  <img src="./img/photo.png" alt="Аватарка менеджера Adesk">
+                </div>
+              </div>
+            </li>
+            <li class="faq__item">
+              <button class="faq__btn btn btn-accent btn-reset" data-path="faq-6">
+                Мне нужна помощь в&nbsp;освоении сервиса. Как быть?
+              </button>
+              <div class="faq__content answers" data-target="faq-6">
+                <ul class="answers__list list-reset">
+                  <li class="answers__item">
+                    У&nbsp;нас есть YouTube-канал, а&nbsp;так&nbsp;же сайт <a href="https://help.adesk.ru/" target="_blank" class="answers__link">help.adesk.ru</a> с&nbsp;простыми и&nbsp;понятными статьями, где&nbsp;вы, возможно, сможете найти ответы на&nbsp;свои вопросы.
+                  </li>
+                  <li class="answers__item">
+                    Не&nbsp;стесняйтесь писать нам в&nbsp;чат, мы&nbsp;очень активно отвечаем и&nbsp;с&nbsp;удовольствием вам поможем.
+                  </li>
+                  <li class="answers__item">
+                    Чтобы сэкономить ваше время, мы&nbsp;можем выделить вам помощника, который за&nbsp;несколько онлайн-созвонов обучит вас работе в&nbsp;сервисе. Услуга предоставляется за&nbsp;дополнительную плату.
+                  </li>
+                </ul>
+                <div class="answers__image">
+                  <img src="./img/photo.png" alt="Аватарка менеджера Adesk" class="">
+                </div>
+              </div>
+            </li>
+            <li class="faq__item">
+              <div class="faq__content answers active">
+                <ul class="answers__list list-reset answers__list--withoutbtn">
+                  <li class="answers__item">
+                    Есть другой вопрос? Напишите нам в&nbsp;чат в правом нижнем углу экрана.
+                  </li>
+                </ul>
+                <div class="answers__image">
+                  <img src="./img/photo.png" alt="Аватарка менеджера Adesk">
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__container container">
+      <div class="footer__top footer-top">
+        <div class="footer__block footer__block--logo">
+          <div class="footer__logo-plus-text">
+            <a href="#" class="footer__logo">
+              <img src="./img/adesk_logo.svg" alt="Логотип Adesk">
+            </a>
+            <span class="footer__logo-text">
+              Рассчитывайте на&nbsp;<span>Adesk.</span>
+            </span>
+          </div>
+        </div>
+        <div class="footer__block footer__block--column">
+          <h3 class="footer__subtitle">
+            Adesk для бизнеса
+          </h3>
+          <ul class="footer__list list-reset">
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Digital-агентства
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Маркетинговые агентства
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Стартапы
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Кафе и рестораны
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Строительные компании
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Юридические фирмы
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Фрилансеры
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__block footer__block--column">
+          <h3 class="footer__subtitle">
+            Ресурсы
+          </h3>
+          <ul class="footer__list list-reset">
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Журнал о финансах
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link footer__link--pencil">
+                Курс по&nbsp;учету
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Внедрение под ключ
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Партнерская программа
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Бонусы от партнеров
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__block footer__block--column">
+          <h3 class="footer__subtitle">
+            Информация
+          </h3>
+          <ul class="footer__list list-reset">
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Документация по API
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Отзывы пользователей
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="https://help.adesk.ru/" class="footer__link">
+                Помощь
+              </a>
+            </li>
+          </ul>
+          <div class="footer__contacts contacts">
+            <ul class="contacts__list list-reset">
+              <li class="contacts__item footer__item">
+                <a href="mailto:support@adesk.ru" class="contacts__link contacts__link--mail">
+                  support@adesk.ru
+                </a>
+              </li>
+              <li class="contacts__item footer__item">
+                <a href="tel:+74951062100" class="contacts__link contacts__link--phone">
+                  +7 (495) 106-21-00
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__middle footer-middle">
+        <div class="footer__pay-methods pay-methods">
+          <ul class="pay-methods__list list-reset">
+            <li class="pay-methods__item">
+              <svg width="49" height="24" viewBox="0 0 49 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18.6018 4.30503L12.19 19.7573H8.00677L4.85148 7.42567C4.65992 6.66612 4.49336 6.38786 3.91077 6.06786C2.95959 5.54664 1.38883 5.05762 0.00683594 4.75411L0.100704 4.30503H6.83444C7.69277 4.30503 8.46437 4.88216 8.65925 5.88055L10.3257 14.822L14.4441 4.30477H18.6018V4.30503ZM34.9925 14.7122C35.0093 10.6339 29.4094 10.4092 29.4479 8.58741C29.4599 8.03295 29.9825 7.44345 31.1266 7.29298C31.6936 7.21801 33.2559 7.16081 35.0279 7.98451L35.723 4.70773C34.7708 4.35862 33.5457 4.02264 32.0214 4.02264C28.1098 4.02264 25.357 6.123 25.3338 9.13053C25.3085 11.3551 27.2986 12.5964 28.798 13.3356C30.3404 14.0926 30.858 14.579 30.8521 15.2561C30.8411 16.2927 29.6219 16.7502 28.4824 16.7683C26.4934 16.7992 25.3391 16.2246 24.4191 15.7926L23.7018 19.1778C24.6265 19.6063 26.3332 19.9801 28.1026 19.9989C32.2601 19.9989 34.9797 17.9246 34.9925 14.7122ZM45.3215 19.7573H48.9816L45.7868 4.30503H42.4085C41.6489 4.30503 41.0082 4.75179 40.7245 5.43868L34.7861 19.7573H38.9416L39.7665 17.4492H44.8437L45.3215 19.7573ZM40.9059 14.2822L42.9888 8.48049L44.1877 14.2822H40.9059ZM24.2561 4.30503L20.9837 19.7573H17.0265L20.3001 4.30503H24.2561Z" fill="white"/>
+              </svg>
+            </li>
+            <li class="pay-methods__item">
+              <svg width="33" height="24" viewBox="0 0 33 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20.8431 4.13837H12.1338V19.8623H20.8431V4.13837Z" fill="#FF5F00"/>
+                <path d="M12.6866 12.0002C12.6853 10.4858 13.0268 8.99103 13.6855 7.62893C14.3441 6.26683 15.3026 5.07312 16.4883 4.13818C15.0199 2.97864 13.2565 2.25754 11.3995 2.0573C9.54253 1.85705 7.66693 2.18574 5.9871 3.00581C4.30727 3.82588 2.89098 5.10424 1.90011 6.69476C0.909245 8.28528 0.383789 10.1238 0.383789 12.0002C0.383789 13.8765 0.909245 15.715 1.90011 17.3056C2.89098 18.8961 4.30727 20.1744 5.9871 20.9945C7.66693 21.8146 9.54253 22.1433 11.3995 21.943C13.2565 21.7428 15.0199 21.0217 16.4883 19.8621C15.3026 18.9272 14.3441 17.7335 13.6855 16.3714C13.0268 15.0093 12.6853 13.5145 12.6866 12.0002Z" fill="#EB001B"/>
+                <path d="M32.5923 12.0002C32.5924 13.8765 32.067 15.715 31.0761 17.3055C30.0853 18.8961 28.6691 20.1744 26.9893 20.9945C25.3095 21.8146 23.4339 22.1433 21.577 21.943C19.72 21.7428 17.9566 21.0217 16.4883 19.8621C17.673 18.9263 18.6307 17.7324 19.2892 16.3705C19.9477 15.0086 20.2899 13.5143 20.2899 12.0002C20.2899 10.4861 19.9477 8.99174 19.2892 7.62985C18.6307 6.26796 17.673 5.07406 16.4883 4.13818C17.9566 2.97864 19.72 2.25753 21.577 2.05729C23.4339 1.85705 25.3095 2.18576 26.9893 3.00584C28.6691 3.82591 30.0853 5.10427 31.0761 6.69479C32.067 8.28532 32.5924 10.1238 32.5923 12.0002Z" fill="#F79E1B"/>
+                <path d="M31.6427 18.1969V17.875H31.7719V17.8094H31.4429V17.875H31.5721V18.1969H31.6427ZM32.2815 18.1969V17.8088H32.1807L32.0647 18.0757L31.9486 17.8088H31.8477V18.1969H31.9189V17.9041L32.0277 18.1566H32.1016L32.2104 17.9035V18.1969H32.2815Z" fill="#F79E1B"/>
+              </svg>
+            </li>
+            <li class="pay-methods__item">
+              <svg width="104" height="24" viewBox="0 0 104 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4.18019 9.92668H0V7.47809H11.3643V9.90755H7.20426V16.6029H4.17514L4.18019 9.92668Z" fill="white"/>
+                <path d="M22.9953 7.47809V16.5646H20.0671V11.304L15.0186 16.5981H12.4388V7.47809H15.3669V12.7913L20.4104 7.47809H22.9953Z" fill="white"/>
+                <path d="M28.0394 16.5981H25.1113V7.47809H28.0394V10.8258H32.7447V7.47809H35.6728V16.5646H32.7447V13.217H28.0394V16.5981Z" fill="white"/>
+                <path d="M37.7884 16.5981V7.47809H40.7165V9.92668H43.7457C44.469 9.89116 45.1934 9.97531 45.8862 10.1754C46.5481 10.3908 47.1184 10.8037 47.5116 11.352C47.9048 11.9004 48.0997 12.5548 48.0672 13.217C48.0926 13.9376 47.8557 14.6445 47.396 15.2193C46.9364 15.794 46.2821 16.2015 45.5429 16.3734C44.9438 16.5244 44.3252 16.5952 43.7053 16.5838L37.7884 16.5981ZM40.7165 14.3982H43.2408C43.6302 14.4313 44.0225 14.3856 44.3919 14.2643C44.6076 14.1758 44.7913 14.0295 44.9205 13.8435C45.0496 13.6574 45.1186 13.4397 45.1189 13.217C45.1238 12.995 45.0512 12.7776 44.9125 12.5987C44.7737 12.4197 44.5766 12.2891 44.3515 12.227C43.9847 12.1252 43.602 12.0847 43.2206 12.1075H40.6963L40.7165 14.3982Z" fill="white"/>
+                <path d="M52.3431 16.5981H49.415V7.47809H52.3431V10.9214H53.1458L56.6798 7.49722H60.3552L55.6701 11.854L60.5369 16.5981H56.6394L53.1458 13.1548H52.3431V16.5981Z" fill="white"/>
+                <path d="M72.9155 12.065C72.9155 14.7814 70.5528 16.8857 66.6352 16.8857C62.7175 16.8857 60.3346 14.7814 60.3346 12.065C60.3346 9.34862 62.6973 7.24915 66.6402 7.24915C70.5831 7.24915 72.9155 9.3534 72.9155 12.065ZM69.846 12.065C69.846 10.5777 68.5738 9.48731 66.6352 9.48731C64.6965 9.48731 63.4243 10.5777 63.4243 12.065C63.4243 13.5523 64.6763 14.6523 66.6402 14.6523C68.6041 14.6523 69.846 13.5571 69.846 12.065Z" fill="white"/>
+                <path d="M88.4651 12.0456C88.4651 14.6472 86.264 16.0054 82.5684 16.082V17.0002H79.6403V16.0867C75.965 16.0102 73.7638 14.652 73.7638 12.0504C73.7638 9.44877 75.965 7.98057 79.6403 7.90406V7.00018H82.5684V7.9184C86.264 7.95666 88.4651 9.44877 88.4651 12.0456ZM79.6403 9.86962C77.6209 9.94614 76.7323 10.8261 76.7323 12.0456C76.7323 13.2651 77.6209 14.0542 79.6403 14.1307V9.86962ZM85.4764 12.0456C85.4764 10.8261 84.6081 9.94614 82.5684 9.86962V14.1307C84.6081 14.0542 85.4764 13.2699 85.4764 12.0456Z" fill="white"/>
+                <path d="M104 12.0456C104 14.6472 101.799 16.0054 98.1033 16.082V17.0002H95.1751V16.0867C91.4998 16.0102 89.2986 14.652 89.2986 12.0504C89.2986 9.44877 91.4998 7.98057 95.1751 7.90406V7.00018H98.1033V7.9184C101.814 7.95666 104 9.44877 104 12.0456ZM95.1903 9.86962C93.1709 9.94614 92.2823 10.8261 92.2823 12.0456C92.2823 13.2651 93.1709 14.0542 95.1903 14.1307V9.86962ZM101.026 12.0456C101.026 10.8261 100.158 9.94614 98.1184 9.86962V14.1307C100.158 14.0542 101.026 13.2699 101.026 12.0456Z" fill="white"/>
+              </svg>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__apps apps">
+          <ul class="apps__list list-reset">
+            <li class="apps__item">
+              <a href="https://apps.apple.com/app/id1564056817" class="apps__link" target="_blank">
+                <svg width="16" height="19" viewBox="0 0 16 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M15.8109 13.9002C15.3797 14.858 15.1719 15.2861 14.6172 16.1315C13.8406 17.3127 12.7453 18.7877 11.3922 18.7971C10.1875 18.808 9.87656 18.0111 8.24063 18.0252C6.60625 18.033 6.26563 18.8127 5.05938 18.8002C3.70469 18.7877 2.66875 17.4596 1.89219 16.2799C-0.279686 12.9721 -0.509374 9.09396 0.832814 7.03146C1.78281 5.56896 3.28438 4.70958 4.69531 4.70958C6.13281 4.70958 7.03594 5.49865 8.22344 5.49865C9.37656 5.49865 10.0781 4.70802 11.7406 4.70802C12.9969 4.70802 14.325 5.3924 15.275 6.57365C12.1688 8.27677 12.6734 12.7127 15.8109 13.9002V13.9002ZM10.4781 3.38771C11.0828 2.61114 11.5422 1.51583 11.375 0.400208C10.3891 0.467395 9.23594 1.09708 8.5625 1.91271C7.95157 2.65646 7.44532 3.75958 7.64219 4.82677C8.71875 4.86115 9.83281 4.21896 10.4781 3.38771H10.4781Z" fill="white"/>
+                </svg>
+                App store
+              </a>
+            </li>
+            <li class="apps__item">
+              <a href="https://play.google.com/store/apps/details?id=ru.adesk&pli=1" class="apps__link" target="_blank">
+                <svg width="17" height="20" viewBox="0 0 17 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0.85 0.800171L9.5125 9.40017L11.8875 7.02517L1.3875 0.962671C1.2125 0.861108 1.025 0.804858 0.85 0.800171ZM0.125 1.20017C0.0468754 1.33923 0 1.5033 0 1.68767V18.4002C0 18.5345 0.0281254 18.6549 0.0749998 18.7627L8.9375 9.96267L0.125 1.20017ZM12.6125 7.43767L10.075 9.96267L12.6125 12.4752L15.7125 10.7002C16.1531 10.4455 16.2156 10.122 16.2125 9.95017C16.2078 9.6658 16.0281 9.40017 15.725 9.23767C15.4609 9.09548 13.5 7.9533 12.6125 7.43767ZM9.5125 10.5252L0.775 19.1877C0.920313 19.1799 1.07813 19.1486 1.225 19.0627C1.56719 18.8642 8.4875 14.8627 8.4875 14.8627L11.9 12.9002L9.5125 10.5252Z" fill="white"/>
+                </svg>
+                Google Play
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="footer__bottom">
+        <div class="footer__policies policies">
+          <ul class="policies__list list-reset">
+            <li class="policies__item">
+              <a class="policies__link policies__link--nonevent">
+                ООО &laquo;Адеск&raquo;, 2022
+              </a>
+            </li>
+            <li class="policies__item">
+              <a class="policies__link policies__link--nonevent">
+                ИНН 7751182678
+              </a>
+            </li>
+            <li class="policies__item">
+              <a href="https://adesk.ru/agreement/#confidence" class="policies__link">
+                Политика конфиденциальности
+              </a>
+            </li>
+            <li class="policies__item">
+              <a href="https://adesk.ru/agreement/" class="policies__link">
+                Договор-оферта
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__social social">
+          <ul class="social__list list-reset">
+            <li class="social__item">
+              <a href="https://t.me/adesk_ru" target="_blank" class="social__link" aria-label="Telegram">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M22 11.0002C22 17.0753 17.0751 22.0002 11 22.0002C4.92487 22.0002 0 17.0753 0 11.0002C0 4.92505 4.92487 0.000183105 11 0.000183105C17.0751 0.000183105 22 4.92505 22 11.0002ZM11.3942 8.12087C10.3243 8.56588 8.18596 9.48695 4.97924 10.8841C4.45851 11.0911 4.18574 11.2937 4.1609 11.4918C4.11894 11.8266 4.53815 11.9584 5.10901 12.1379C5.18667 12.1623 5.26712 12.1876 5.34961 12.2144C5.91125 12.397 6.66676 12.6106 7.05951 12.619C7.41578 12.6267 7.81342 12.4799 8.25242 12.1784C11.2486 10.1559 12.7952 9.13368 12.8923 9.11164C12.9608 9.09609 13.0557 9.07654 13.12 9.13371C13.1844 9.19088 13.178 9.29914 13.1712 9.32819C13.1297 9.50523 11.4841 11.0351 10.6325 11.8268C10.367 12.0736 10.1787 12.2487 10.1402 12.2887C10.054 12.3783 9.96611 12.463 9.88165 12.5444C9.35987 13.0474 8.96859 13.4246 9.90331 14.0406C10.3525 14.3366 10.7119 14.5814 11.0705 14.8256C11.4622 15.0923 11.8528 15.3583 12.3581 15.6895C12.4869 15.7739 12.6099 15.8616 12.7296 15.947C13.1854 16.2719 13.5949 16.5638 14.1007 16.5173C14.3946 16.4902 14.6983 16.2138 14.8525 15.3895C15.2169 13.4414 15.9332 9.22043 16.0987 7.48108C16.1132 7.32869 16.095 7.13366 16.0803 7.04804C16.0657 6.96243 16.035 6.84045 15.9238 6.75015C15.792 6.64321 15.5885 6.62066 15.4975 6.62226C15.0838 6.62955 14.449 6.85027 11.3942 8.12087Z" fill="white"/>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://www.facebook.com/adeskservice" target="_blank" class="social__link" aria-label="Facebook">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22 11.0002C22 4.92505 17.0751 0.000183105 11 0.000183105C4.92486 0.000183105 0 4.92505 0 11.0002C0 16.4905 4.02252 21.0413 9.28125 21.8666V14.1799H6.48828V11.0002H9.28125V8.57675C9.28125 5.81987 10.9235 4.29706 13.4361 4.29706C14.6392 4.29706 15.8984 4.5119 15.8984 4.5119V7.21893H14.5114C13.145 7.21893 12.7188 8.06692 12.7188 8.93768V11.0002H15.7695L15.2818 14.1799H12.7188V21.8666C17.9775 21.0413 22 16.4905 22 11.0002Z" fill="white"/>
+                  </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://vk.com/adesk" target="_blank" class="social__link" aria-label="Вконтакте">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M1.54648 1.54666C0 3.09314 0 5.58213 0 10.5602V11.4402C0 16.4182 0 18.9072 1.54648 20.4537C3.09295 22.0002 5.58195 22.0002 10.56 22.0002H11.44C16.4181 22.0002 18.907 22.0002 20.4535 20.4537C22 18.9072 22 16.4182 22 11.4402V10.5602C22 5.58213 22 3.09314 20.4535 1.54666C18.907 0.000183105 16.4181 0.000183105 11.44 0.000183105H10.56C5.58195 0.000183105 3.09295 0.000183105 1.54648 1.54666ZM3.71255 6.6919C3.83172 12.4119 6.69171 15.8494 11.7059 15.8494H11.9901V12.5769C13.8326 12.7602 15.2258 14.1077 15.785 15.8494H18.3884C17.6734 13.2461 15.7941 11.8069 14.6208 11.2569C15.7941 10.5786 17.4441 8.92856 17.8383 6.6919H15.4732C14.9599 8.5069 13.4384 10.1569 11.9901 10.3127V6.6919H9.625V13.0352C8.15833 12.6686 6.30671 10.8902 6.22421 6.6919H3.71255Z" fill="white"/>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://www.youtube.com/channel/UC5WLmZxDIizo1wP7Ans5GoA" target="_blank" class="social__link" aria-label="Youtube">
+                <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M20.8292 1.39611C21.1705 1.7415 21.4156 2.17095 21.54 2.64151C22 4.37829 22 8.00016 22 8.00016C22 8.00016 22 11.622 21.54 13.3588C21.4156 13.8294 21.1705 14.2588 20.8292 14.6042C20.4878 14.9496 20.0622 15.1988 19.595 15.3268C17.875 15.7918 11 15.7918 11 15.7918C11 15.7918 4.125 15.7918 2.405 15.3268C1.93777 15.1988 1.51219 14.9496 1.17085 14.6042C0.829506 14.2588 0.58438 13.8294 0.46 13.3588C0 11.622 0 8.00016 0 8.00016C0 8.00016 0 4.37829 0.46 2.64151C0.58438 2.17095 0.829506 1.7415 1.17085 1.39611C1.51219 1.05073 1.93777 0.801543 2.405 0.673483C4.125 0.208496 11 0.208496 11 0.208496C11 0.208496 17.875 0.208496 19.595 0.673483C20.0622 0.801543 20.4878 1.05073 20.8292 1.39611ZM14.5 8.00019L8.74996 4.71135V11.289L14.5 8.00019Z" fill="white"/>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://www.instagram.com/adesk.ru/" target="_blank" class="social__link" aria-label="Instgram">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.0064 1.98143C13.9472 1.98143 14.2955 1.99432 15.452 2.0459C16.5269 2.09317 17.1073 2.27367 17.4942 2.42409C18.0059 2.62179 18.3756 2.86246 18.7583 3.24496C19.1452 3.63175 19.3817 3.99706 19.5794 4.50849C19.7299 4.89528 19.9105 5.47977 19.9578 6.5499C20.0094 7.71028 20.0223 8.0584 20.0223 10.9937C20.0223 13.9334 20.0094 14.2815 19.9578 15.4376C19.9105 16.512 19.7299 17.0922 19.5794 17.479C19.3817 17.9904 19.1409 18.36 18.7583 18.7425C18.3713 19.1293 18.0059 19.3657 17.4942 19.5634C17.1073 19.7138 16.5226 19.8943 15.452 19.9416C14.2912 19.9932 13.9429 20.006 11.0064 20.006C8.06566 20.006 7.71741 19.9932 6.56088 19.9416C5.48603 19.8943 4.90561 19.7138 4.51866 19.5634C4.00704 19.3657 3.63729 19.125 3.25464 18.7425C2.8677 18.3557 2.63123 17.9904 2.43346 17.479C2.28298 17.0922 2.1024 16.5077 2.05511 15.4376C2.00352 14.2772 1.99062 13.9291 1.99062 10.9937C1.99062 8.0541 2.00352 7.70598 2.05511 6.5499C2.1024 5.47547 2.28298 4.89528 2.43346 4.50849C2.63123 3.99706 2.872 3.62745 3.25464 3.24496C3.64159 2.85816 4.00704 2.62179 4.51866 2.42409C4.90561 2.27367 5.49033 2.09317 6.56088 2.0459C7.71741 1.99432 8.06566 1.98143 11.0064 1.98143ZM11.0064 0.000183105C8.01837 0.000183105 7.64432 0.0130762 6.47059 0.0646488C5.30115 0.116221 4.49717 0.305321 3.80066 0.576077C3.07407 0.859726 2.45925 1.23363 1.84874 1.8482C1.23393 2.45848 0.859879 3.07305 0.576119 3.79507C0.305257 4.49559 0.116084 5.29497 0.0644909 6.46395C0.0128982 7.64152 0 8.01542 0 11.0023C0 13.9892 0.0128982 14.3631 0.0644909 15.5364C0.116084 16.7054 0.305257 17.5091 0.576119 18.2053C0.859879 18.9316 1.23393 19.5462 1.84874 20.1565C2.45925 20.7667 3.07407 21.1449 3.79637 21.4243C4.49717 21.695 5.29685 21.8841 6.46629 21.9357C7.64002 21.9873 8.01407 22.0002 11.0021 22.0002C13.9902 22.0002 14.3643 21.9873 15.538 21.9357C16.7074 21.8841 17.5114 21.695 18.2079 21.4243C18.9302 21.1449 19.545 20.7667 20.1556 20.1565C20.7661 19.5462 21.1444 18.9316 21.4239 18.2096C21.6947 17.5091 21.8839 16.7097 21.9355 15.5407C21.9871 14.3674 22 13.9935 22 11.0066C22 8.01972 21.9871 7.64582 21.9355 6.47254C21.8839 5.30356 21.6947 4.49989 21.4239 3.80366C21.153 3.07305 20.779 2.45848 20.1642 1.8482C19.5536 1.23792 18.9388 0.859726 18.2165 0.580375C17.5157 0.309619 16.716 0.120519 15.5466 0.0689465C14.3686 0.0130763 13.9945 0.000183105 11.0064 0.000183105Z" fill="white"/>
+                  <path d="M11.0065 5.35083C7.88516 5.35083 5.35281 7.88218 5.35281 11.0023C5.35281 14.1225 7.88516 16.6538 11.0065 16.6538C14.1279 16.6538 16.6602 14.1225 16.6602 11.0023C16.6602 7.88218 14.1279 5.35083 11.0065 5.35083ZM11.0065 14.6683C8.9815 14.6683 7.33913 13.0265 7.33913 11.0023C7.33913 8.9781 8.9815 7.33637 11.0065 7.33637C13.0315 7.33637 14.6739 8.9781 14.6739 11.0023C14.6739 13.0265 13.0315 14.6683 11.0065 14.6683Z" fill="white"/>
+                  <path d="M18.2037 5.12738C18.2037 5.858 17.6104 6.44678 16.8838 6.44678C16.1529 6.44678 15.5639 5.8537 15.5639 5.12738C15.5639 4.39677 16.1572 3.80798 16.8838 3.80798C17.6104 3.80798 18.2037 4.40107 18.2037 5.12738Z" fill="white"/>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
